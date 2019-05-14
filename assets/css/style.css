@@ -1,0 +1,237 @@
+body {
+    background-color: #31334F;
+    color: #ffffff;
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+
+    /* for sticky footer */
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+  /* for sticky footer */
+  flex: 1 0 auto;
+} 
+     
+.nav-wrapper {
+  background-color: #222330;
+  color: #DB99B9;
+  padding-bottom: 15px;
+}
+nav ul a {
+  font-size: 1.4rem;
+}
+
+.page-footer {
+  background-color: #222330;
+  padding-bottom: 15px;
+  font-size: 15px;
+}
+
+.footerIcons{
+  padding-right: 2em;
+}
+
+#callingCard {
+  background-color: #222330;
+  margin-top: 10px;
+  /* border: 3px, solid, #DB99B9; */
+}
+
+#callingCard img {
+  padding: 15px 5px 5px 5px;
+  /* height: 250px;
+  width: auto; */
+}
+
+#callingCard p {
+  margin: 5px;
+}
+
+.name, .email{
+  color: #222330;
+}
+
+.card {
+    background-color: #222330;
+    /* background-color: #768EB5; */
+    color: #FFFFFF;
+    padding: 15px;
+    margin: 10px;
+}
+
+.card .card-action{
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+#callingCard img {
+  width: 280px;
+  height: auto;
+}
+
+#portfolio .card-image {
+    border: solid 3px #FFFFFF;
+    /* border: solid 3px #768EB5; */
+}
+
+
+.fixed-action-btn{
+/*desired value*/
+left: 5px;
+  /* left: 5px;
+  top: 10px; */
+  }
+
+
+.divider{
+  margin-right:30px;
+  background-color: #DB99B9;
+}
+
+/* this is for the tool tip */
+.material-tooltip {
+  background-color: #222330;
+  color: #DB99B9;
+}
+
+/* #callingCard .material-tooltip {
+  background-color: #31334F;
+  color: #DB99B9;
+} */
+
+.aboutCol{
+  color: #222330; 
+  background-color: white;
+  border-radius: 25px; 
+  border: 2px solid #DB99B9; 
+  font-size:20px;
+  /* border: 2px solid #73AD21;  */
+}
+
+.row .col.s4 {
+  /* margin-left: 1px; */
+}
+
+.aboutCol ul{
+  margin: 1em 0px;
+  font-size: 20px;
+}
+
+.aboutCol ul li {
+  padding-bottom: 5px;
+  line-height: 1.1em;
+}
+
+p {
+  line-height: 1.2em;
+  margin: 1em 0px;
+  /* font-size: 15px; */
+}
+
+a {
+    color: #DB99B9;
+}
+
+/* this is for columns of a fixed height */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* playing with animation */
+/* .bird { */
+  /* background-image: url('bird.svg'); */
+  /* background-image: "assets/images/airline-3807265_640.png";
+  background-size: auto 100%;
+  width: 88px;
+  height: 125px;
+  will-change: background-position;
+
+  animation-name: fly-cycle;
+  animation-timing-function: steps(10);
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-delay: -0.5s;
+  }
+@keyframes fly-cycle {
+  100% {
+  background-position: -900px 0;
+  } 
+} */
+
+/* my colors
+ #DB99B9 - pink
+ #55526f - light gray purple
+ #31334F - slightly lighter purple (main body)
+ #222330 - dk purple
+*/
+
+.bird{
+  background:#DB99B9;
+  -webkit-animation: super-rainbow 15s infinite alternate linear; 
+  -moz-animation: super-rainbow 15s infinite alternate linear; 
+}
+@-webkit-keyframes super-rainbow {
+  /* 0%   { background: red; } 
+  20%  { background: orange; }
+  40%  { background: yellow; }
+  60%  { background: green; }
+  80%  { background: blue; }
+  100% { background: violet; } */
+  0%   { background:#DB99B9; } 
+  35%  { background:#55526f; }
+  75%  { background:#31334F; }
+  100%  { background:#222330; }
+}
+
+@-moz-keyframes super-rainbow {
+  /* 0%   { background: red; } 
+  20%  { background: orange; }
+  40%  { background: yellow; }
+  60%  { background: green; }
+  80%  { background: blue; }
+  100% { background: violet; } */
+  0%   { background:#DB99B9; } 
+  35%  { background:#55526f; }
+  75%  { background:#31334F; }
+  100%  { background:#222330; }
+}/* end of animation */
+
+
+/* @media (max-width: 1200px) {
+  body {    
+    font-size: 20px;
+  }
+}
+  @media (max-width: 800px) {
+    body {    
+      font-size: 15px;
+    }
+
+  } */
+
+  /* @media (max-width: 740px) {
+
+  } 
+ */
+  /* iPhone 6: 375px (portrait), 667px (landscape)
+  iPhone 6 Plus: 414 (portrait), 736px (landscape) */
+
+  /* iphone 6 plus is 414px*/
+  /* @media (max-width: 470px) { */
+    /* @media (max-width: 520px) {
+
+    .divider{
+      margin-right:5px;
+    }
+    
+
+} */
+
+    /* because I no longer want two items per row */
+    /* .imgcontainer:nth-child(even) {
+      margin-right: auto;
+  } */
