@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function () {
 
     // a call to Materialize sidenav
     $('.sidenav').sidenav();
@@ -19,7 +19,10 @@ $(document).ready(function(){
     $('.carousel.carousel-slider').carousel({
         fullWidth: false,
         indicators: true
-      });
+    });
+
+    // a call to Materialize sidenav
+    $('.sidenav').sidenav();
 
     //   $('#carousel-example-generic').on('slid.bs.carousel', function (event) {
     //     var nextactiveslide = $(event.relatedTarget).index();
@@ -28,4 +31,4 @@ $(document).ready(function(){
     //     $btns.find('.img-circle').removeClass('active');
     //     $active.find('.img-circle').addClass('active');
     // });      
-    });
+});

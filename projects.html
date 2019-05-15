@@ -28,10 +28,17 @@
   <header>
     <nav>
       <div class="nav-wrapper">
-        <a href="#" class="brand-logo"><img src="assets/images/logo.png" style="height:90px; width:auto; "></a>
+
+        <!-- The hambuger menu for responsive sidenav (Contact info)-->
+        <ul id="nav-mobile1" class="left">
+          <li><a href="#" data-target="slide-out" class="sidenav-trigger" style="color: #DB99B9;"><i
+                class="material-icons">menu</i></a></li>
+        </ul>
+
+        <!-- <a href="#" class="brand-logo center"><img src="assets/images/logo.png" style="height:90px; width:auto; "></a> -->
+
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="index.html" style="color: #DB99B9;">Home</a></li>
-          <li><a href="about.html" style="color: #DB99B9;">About</a></li>
+          <li><a href="index.html" style="color: #DB99B9;">About</a></li>
           <li><a href="projects.html" style="color: #DB99B9;">Portfolio</a></li>
         </ul>
       </div>
@@ -39,11 +46,37 @@
 
   </header>
   <main>
+    <!-- This is the fixed side navbar-->
+    <ul id="slide-out" class="sidenav sidenav-fixed" style="background-color: #222330; width:100px">
+      <li> <a class="footerIcons tooltipped" href="mailto:hsshop1@gmail.com" target="_blank" data-position="right"
+          data-tooltip="EMAIL"><i class="material-icons" style="color:white; font-size: 32px">mail</i></a>
+      </li>
+
+      <li> <a class="footerIcons tooltipped" href="tel:+12154933869" target="_blank" data-position="right"
+          data-tooltip="CALL"><i class="material-icons" style="color: white; font-size: 32px">phone</i> </a></li>
+
+      <li><a class="footerIcons tooltipped" href="https://github.com/savycodr" target="_blank" data-position="right"
+          data-tooltip="GITHUB"><img src="assets/images/GitHub-Mark-Light-64px.png"
+            style="height:32px; width:auto; margin-top: 10px">
+        </a></li>
+
+      <li><a class="footerIcons tooltipped" href="https://www.linkedin.com/in/heather-samsel/" target="_blank"
+          data-position="right" data-tooltip="LINKED IN"><img src="assets/images/In-White-66px-R.png"
+            style="height:33px; width:auto;  margin-top: 15px">
+        </a></li>
+
+      <li><a class="footerIcons tooltipped" href="assets/Resume.pdf" target="_blank" data-position="right"
+          data-tooltip="RESUME"><i class="material-icons"
+            style="color: white; font-size: 30px; padding-top:0px; margin-top: 15px ">insert_drive_file</i>
+        </a></li>
+    </ul>
+
     <!-- a little strip of a header-->
     <div class="container" style="height:50px">
     </div>
 
-    <div id="portfolio">
+    <!-- Need this margin to account for the 100 width sidenav -->
+    <div id="portfolio" style="margin-left:100px">
       <h4 class="center-align">My Recent Work</h4>
       <div class="row">
         <div class="col s12 m6 l4">
@@ -282,9 +315,10 @@
   </main>
 
   <footer class="page-footer">
-    <div class=" right-align">
 
-      <a class="footerIcons tooltipped" href="mailto:hsshop1@gmail.com" target="_blank" data-position="top"
+    <div class="right-align">
+
+        <a class="footerIcons tooltipped" href="mailto:hsshop1@gmail.com" target="_blank" data-position="top"
         data-tooltip="EMAIL"><i class="material-icons" style="color:white; font-size: 32px">mail</i></a>
 
       <a class="footerIcons tooltipped" href="tel:+12154933869" target="_blank" data-position="top"
