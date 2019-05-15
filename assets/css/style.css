@@ -115,6 +115,11 @@ left: 5px;
   /* border: 2px solid #73AD21;  */
 }
 
+/* <!-- Need this margin to account for the 100 width sidenav --> */
+#intro, #portfolio{
+  margin-left:100px;
+}
+
 .carousel .indicators .indicator-item.active {
     background-color: #222330;
 }
@@ -213,22 +218,24 @@ a {
 }/* end of animation */
 
 
-/* @media (max-width: 1200px) {
-  body {    
-    font-size: 20px;
-  }
-}
-  @media (max-width: 800px) {
-    body {    
-      font-size: 15px;
-    }
-
+@media (max-width: 1200px) {
+  /* #intro, #portfolio{
+    margin-left:0px;
   } */
+}
 
-  /* @media (max-width: 740px) {
+  @media (max-width: 992px) {
+    #intro, #portfolio{
+      margin-left:0px;
+    }
+  }
 
+  @media (max-width: 740px) {
+    #intro, #portfolio{
+      margin-left:0px;
+    }
   } 
- */
+
   /* iPhone 6: 375px (portrait), 667px (landscape)
   iPhone 6 Plus: 414 (portrait), 736px (landscape) */
 
