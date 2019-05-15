@@ -108,7 +108,19 @@ left: 5px;
   border-radius: 25px; 
   border: 2px solid #DB99B9; 
   font-size:20px;
+  padding:5px;
+  /* this is for the carousel only */
+  /* width: 60%;
+  padding: 20px; */
   /* border: 2px solid #73AD21;  */
+}
+
+.carousel .indicators .indicator-item.active {
+    background-color: #222330;
+}
+
+.carousel .indicators .indicator-item {
+  background-color: #55526f;
 }
 
 .row .col.s4 {

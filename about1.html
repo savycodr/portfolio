@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- call reset -->
-  <!-- <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css"> -->
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
 
   <!-- Add the Font -->
   <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
@@ -46,8 +46,10 @@
     <!-- Content -->
     <div class="container">
       <h4 class="center-align">What I Enjoy</h4>
-      <div class="row flex" style="padding:5px" id="about">
-        <div class="col s4 aboutCol">
+
+
+      <div class="carousel carousel-slider center" id="carousel-example-generic">
+        <div class="carousel-item center aboutCol">
           <h5 class="center-align">Always Learning</h5>
           <hr>
           <ul>
@@ -57,7 +59,7 @@
             <li><i class="tiny material-icons">beenhere</i>Expected, July 2019, Certificate in Web Development</li>
           </ul>
         </div>
-        <div class="col s4 aboutCol">
+        <div class="carousel-item center aboutCol">
           <h5 class="center-align">Creating Web Apps</h5>
           <hr>
           <p class="flow-text" style="font-size: 20px">
@@ -66,7 +68,21 @@
             Take a look at my portfolio to see my latest projects.
           </p>
         </div>
-        <div class="col s4 aboutCol">
+        <div class="carousel-item center aboutCol">
+          <h5 class="center-align">Building Skills</h5>
+          <hr>
+          <p class="flow-text" style="font-size: 20px">
+            Community-oriented, I am Vice President of an organization that fundraises and serves the community.
+          </p>
+          <p>
+            Languages: Java, HTML5, JavaScript, jQuery, CSS
+          </p>
+          <p>
+            Technologies: Git, Passport, Sequelize, Express, Socket.io, Firebase, MySQL, Heroku, Bootstrap and
+            Materialize.
+          </p>
+        </div> <!-- end of column -->
+        <div class="carousel-item center aboutCol">
           <h5 class="center-align">Engineering</h5>
           <hr>
           <p class="flow-text" style="font-size: 20px">
@@ -78,38 +94,7 @@
           </p>
         </div>
 
-      </div> <!-- end of row -->
-
-
-
-      <div class="row flex" style="padding:5px" id="about">
-        <div class="col s12 aboutCol">
-          <h5 class="center-align">Building Skills</h5>
-          <hr>
-          <p class="flow-text" style="font-size: 20px">
-            Community-oriented, I am Vice President of an organization that fundraises and serves the community.
-          </p>
-            Languages: <div class="chip">Java</div>
-            <div class="chip">HTML5</div> 
-            <div class="chip">JavaScript</div>
-            <div class="chip">jQuery</div>
-            <div class="chip">CSS</div>
-            <br>
-            Technologies: 
-            <div class="chip">Git</div> 
-            <div class="chip">Passport</div>
-            <div class="chip">Sequelize</div>
-            <div class="chip">Express</div>
-            <div class="chip">Socket.io</div> 
-            <div class="chip">Firebase</div>
-            <div class="chip">MySQL</div>
-            <div class="chip">Heroku</div>
-            <div class="chip">Bootstrap</div>
-            <div class="chip">Materialize</div>
-            <div class="chip">MongoDB</div>
-            Check back, the list is growing.
-        </div> <!-- end of column -->
-      </div> <!-- end of row -->
+      </div> <!-- end of slider -->
 
     </div> <!-- end of container -->
 
