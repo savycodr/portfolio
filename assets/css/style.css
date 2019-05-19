@@ -230,6 +230,24 @@ a {
 }/* end of animation */
 
 
+/* Grow */
+/* .hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  transform: scale(1.1);
+} */
+
 @media (max-width: 1200px) {
   /* #intro, #portfolio{
     margin-left:0px;
@@ -244,6 +262,8 @@ a {
       margin-bottom: 30px;
     } */
 
+
+
   }
 
   @media (max-width: 740px) {
@@ -251,6 +271,10 @@ a {
     #intro, #portfolio{
       margin-left:0px;
     };
+
+    /* .proj:nth-child(3n+1) {
+      clear: left;
+  } */
     
     /* .aboutCol{
       margin-bottom: 30px;
