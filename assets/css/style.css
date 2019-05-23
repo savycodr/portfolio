@@ -234,6 +234,7 @@ a {
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.1); }
 
+
 @media (max-width: 1200px) {
   /* #intro, #portfolio{
     margin-left:0px;
